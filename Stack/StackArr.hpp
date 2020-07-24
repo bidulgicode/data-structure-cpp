@@ -21,7 +21,7 @@ class Stack {
 
     public:
         Stack(){
-            values = new T[MAX_SIZE];
+            values = new T[MAX_SIZE];            
             top = -1;
         }
         
